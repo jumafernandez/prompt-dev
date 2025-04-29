@@ -111,7 +111,18 @@ Luego editá el archivo .env y completá esta línea:
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
+Además recordá descomentar las siguientes líneas (opcionalmente podés configurar otros LLM para que utilice Auto-GPT):
+
+```bash
+## SMART_LLM - Smart language model (Default: gpt-4-turbo)
+SMART_LLM=gpt-4-turbo
+
+## FAST_LLM - Fast language model (Default: gpt-3.5-turbo)
+FAST_LLM=gpt-3.5-turbo
+```
+
 ## 🛠️ 5. Ejecutar Auto-GPT
+
 Desde la carpeta classic/original_autogpt, ejecutá:
 
 ```bash
