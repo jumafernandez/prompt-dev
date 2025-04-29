@@ -29,7 +29,7 @@ cd Auto-GPT
 cd classic/original_autogpt
 ```
 
-##📦 3. Instalar dependencias con Poetry
+## 📦 3. Instalar dependencias con Poetry
 
 ```bash
 poetry install
