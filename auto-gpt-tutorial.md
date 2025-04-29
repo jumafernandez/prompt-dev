@@ -25,7 +25,7 @@ cd Auto-GPT
 
 ## 📁 2. Ingresar a la versión classic
 ```bash
-cd classic
+cd classic/original_autogpt
 ```
 
 ##📦 3. Instalar dependencias con Poetry
