@@ -1,6 +1,6 @@
 # 🧠 Guía de instalación y ejecución de Auto-GPT (Classic)
 
-Esta guía explica cómo instalar y ejecutar **Auto-GPT (versión Classic)** utilizando `Poetry` y `Python 3.11` en un entorno local de Windows.
+Esta guía explica cómo instalar y ejecutar **Auto-GPT (versión Classic)** utilizando `Poetry` y `Python 3.11` en un entorno local.
 
 ---
 
