@@ -14,6 +14,66 @@ Esta guía explica cómo instalar y ejecutar **Auto-GPT (versión Classic)** uti
 
 ---
 
+### 🐍 Instalación de Python 3.11 y manejo de múltiples versiones
+
+Auto-GPT requiere Python versión ≥3.10 y <3.12, por lo tanto, si ya tenés otra versión instalada (como 3.12), podés convivir con ambas versiones sin conflictos.
+
+#### 1. Verificar la versión instalada
+
+```bash
+python --version
+```
+Si tenés una versión 3.12 o superior, necesitás instalar la versión 3.11 específicamente.
+
+#### 2. Descargar Python 3.11
+
+- Ir a https://www.python.org/downloads/release/python-3110/
+- Descargar el instalador para tu sistema operativo
+
+✅ Asegurate de tildar la opción "Add Python 3.11 to PATH" durante la instalación
+
+⚠️ Si ya tenías otra versión instalada, el instalador de Python te permite tener ambas versiones sin reemplazar la anterior.
+
+#### 3. Crear un entorno virtual con Python 3.11
+
+Una vez instalado Python 3.11, podés crear un entorno virtual para Auto-GPT desde la terminal:
+
+```bash
+C:\> py -3.11 -m venv autogpt-env
+```
+
+Esto crea un entorno virtual llamado autogpt-env.
+
+#### 4. Activar el entorno virtual
+
+Según el sistema operativo, activá el entorno virtual:
+
+Windows (PowerShell):
+```bash
+.\autogpt-env\Scripts\Activate.ps1
+```
+
+Windows (CMD):
+```cmd
+.\autogpt-env\Scripts\activate.bat
+```
+
+Linux/MacOS:
+```bash
+source autogpt-env/bin/activate
+```
+
+#### 5. Verificar que estás en el entorno correcto
+
+Linux/MacOS:
+```bash
+python --version
+```
+
+Debería devolver algo como Python 3.11.x. Si es así, ¡ya estás listo para instalar dependencias y correr Auto-GPT!
+
+---
+
 ## 📦 1. Clonar el repositorio de Auto-GPT
 
 Abrí una terminal y ejecutá:
