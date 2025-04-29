@@ -24,6 +24,7 @@ cd Auto-GPT
 ```
 
 ## 📁 2. Ingresar a la versión classic
+
 ```bash
 cd classic/original_autogpt
 ```
