@@ -99,7 +99,13 @@ poetry install
 
 ## 🔑 4. Configurar la API key de OpenAI
 
-Duplicá el archivo .env.template y renombralo como .env. Luego editá el archivo .env y completá esta línea:
+Duplicá el archivo .env.template y renombralo como .env.:
+
+```bash
+copy .env.template .env
+```
+
+Luego editá el archivo .env y completá esta línea:
 
 ```bash
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
